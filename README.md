@@ -1,10 +1,12 @@
 # VENTURE AI — Autonomous Enterprise Planning & Execution Engine
 
-![VENTURE AI Platform](https://img.shields.io/badge/Platform-VENTURE%20AI-orange?style=for-the-badge)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-venture--ai--beta.vercel.app-00F2DE?style=for-the-badge&logo=vercel&logoColor=black)](https://venture-ai-beta.vercel.app/)
+![Platform](https://img.shields.io/badge/Platform-Larana%20%7C%20VENTURE%20AI-0D4C92?style=for-the-badge)
 ![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi)
 ![React](https://img.shields.io/badge/Frontend-React%2018%20%2B%20Vite-61DAFB?style=for-the-badge&logo=react)
 ![TailwindCSS](https://img.shields.io/badge/Styling-TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css)
-![MSME Grounded](https://img.shields.io/badge/Standard-MSME%20%26%20NSIC-green?style=for-the-badge)
+
+> 🚀 **Hosted Live Application:** [https://venture-ai-beta.vercel.app/](https://venture-ai-beta.vercel.app/)
 
 VENTURE AI is an autonomous business feasibility modeling and execution engine. It models, simulates, and optimizes commercial ventures using Google Maps GIS geocoding, RAG regulatory intelligence, deterministic Python financial algorithms (INR ₹), and 2D/3D spatial operations blueprints.
 

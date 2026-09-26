@@ -1,111 +1,110 @@
 import React from 'react';
 import { Outlet, Link } from 'react-router-dom';
-import { Database, ShieldCheck, Phone, Mail, Globe, MapPin, Sparkles } from 'lucide-react';
-import Logo from '../components/Logo';
+import { Phone, Mail, Globe, Home, TrendingUp } from 'lucide-react';
 
 export const AuthLayout = () => {
   return (
-    <div className="relative min-h-screen w-full flex flex-col lg:flex-row items-stretch bg-[#F8FAFC] selection:bg-orange-500 selection:text-white">
-      {/* LEFT COLUMN: Corporate Visual & Information Panel (Inspired by 2nd Screenshot) */}
-      <div className="relative hidden lg:flex lg:w-1/2 flex-col justify-between p-12 bg-gradient-to-br from-slate-900 via-slate-950 to-[#10172A] text-white overflow-hidden">
-        {/* Background Image Container with Soft Dark Overlay */}
-        <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0 transform scale-105 filter blur-[1px] opacity-25"
-          style={{
-            backgroundImage: "url('/assets/login-bg.jpg')",
-          }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/80 to-transparent z-0" />
+    <div className="relative min-h-screen w-full flex flex-col justify-between overflow-x-hidden bg-[#0A1118] text-white">
+      {/* Background Image: Office Team Collaborating with Dark Gradient Overlay (Exact 2nd Image) */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0 transform scale-100 filter brightness-65 contrast-105"
+        style={{
+          backgroundImage: "url('/assets/login-team.jpg')",
+        }}
+      />
+      {/* Subtle Dark / Deep Navy Tint Overlay for High Contrast */}
+      <div className="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-900/60 to-slate-950/70 z-0 backdrop-blur-[1px]" />
 
-        {/* Top Header Navigation on Left Side */}
-        <div className="relative z-10 flex items-center justify-between">
-          <div className="flex items-center gap-6 text-sm font-bold text-slate-300">
-            <Link to="/" className="hover:text-orange-400 transition-colors">
-              Home
-            </Link>
-            <Link to="/#about" className="hover:text-orange-400 transition-colors">
-              About Us
-            </Link>
-            <Link to="/#features" className="hover:text-orange-400 transition-colors">
-              Solutions & Help
-            </Link>
-          </div>
-
-          <div className="flex items-center gap-2">
-            <div className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
-            <span className="text-xs font-mono font-bold text-emerald-400">
-              MongoDB / Chrome DB Mesh Active
-            </span>
-          </div>
-        </div>
-
-        {/* Center Informational Value Prop */}
-        <div className="relative z-10 my-auto py-12 space-y-4 max-w-lg">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-orange-500/20 border border-orange-500/40 text-orange-300 text-xs font-black shadow-xs">
-            <Sparkles className="w-4 h-4 text-orange-400" />
-            <span>Autonomous Enterprise Modeling Terminal</span>
-          </div>
-          <h2 className="text-3xl sm:text-4xl font-black text-white leading-tight">
-            Accelerate Your Business Feasibility with AI Precision.
-          </h2>
-          <p className="text-sm text-slate-300 leading-relaxed font-medium">
-            Join hundreds of entrepreneurs modeling CapEx, catchment intelligence, MSME machinery manifests, and 12-month deterministic cashflows.
-          </p>
-        </div>
-
-        {/* Bottom Corporate Contact Info Strip (Exact Match to 2nd Screenshot) */}
-        <div className="relative z-10 pt-6 border-t border-slate-800/80 grid grid-cols-2 gap-4 text-xs text-slate-300">
-          <div className="flex items-start gap-2.5">
-            <Phone className="w-4 h-4 text-orange-400 shrink-0 mt-0.5" />
-            <div>
-              <div className="text-[10px] text-slate-400 font-bold uppercase">Phone</div>
-              <div className="font-semibold text-white">+91 98400 12030</div>
-            </div>
-          </div>
-
-          <div className="flex items-start gap-2.5">
-            <Mail className="w-4 h-4 text-orange-400 shrink-0 mt-0.5" />
-            <div>
-              <div className="text-[10px] text-slate-400 font-bold uppercase">E-Mail</div>
-              <div className="font-semibold text-white">contact@ventureai.in</div>
-            </div>
-          </div>
-
-          <div className="flex items-start gap-2.5">
-            <Globe className="w-4 h-4 text-orange-400 shrink-0 mt-0.5" />
-            <div>
-              <div className="text-[10px] text-slate-400 font-bold uppercase">Website</div>
-              <div className="font-semibold text-white">www.ventureai.in</div>
-            </div>
-          </div>
-
-          <div className="flex items-start gap-2.5">
-            <MapPin className="w-4 h-4 text-orange-400 shrink-0 mt-0.5" />
-            <div>
-              <div className="text-[10px] text-slate-400 font-bold uppercase">Address</div>
-              <div className="font-semibold text-white">Innovation Cyber Hub, India</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* RIGHT COLUMN: Interactive Form Container */}
-      <div className="w-full lg:w-1/2 flex flex-col justify-center items-center p-6 sm:p-12 relative z-10">
-        {/* Mobile Top Brand (visible on small screens) */}
-        <div className="lg:hidden w-full max-w-md mb-6 flex items-center justify-between">
-          <Logo size="sm" showText={true} />
-          <Link to="/" className="text-xs font-bold text-orange-600 hover:underline">
-            ← Home
+      {/* TOP HEADER BAR (Exact 2nd Image: Home, About Us, Help, Logo on top right) */}
+      <header className="relative z-20 w-full max-w-7xl mx-auto px-6 sm:px-10 pt-6 sm:pt-8 flex items-center justify-between">
+        {/* Left Navigation Links */}
+        <nav className="flex items-center gap-6 sm:gap-10 text-sm sm:text-base font-semibold text-white/90">
+          <Link to="/" className="hover:text-[#00F2DE] transition-colors">
+            Home
           </Link>
-        </div>
+          <Link to="/#about" className="hover:text-[#00F2DE] transition-colors">
+            About Us
+          </Link>
+          <Link to="/#contact" className="hover:text-[#00F2DE] transition-colors">
+            Help
+          </Link>
+        </nav>
 
+        {/* Right Brand Logo: Ingoude Company / Venture AI with Growth Bar Graphic */}
+        <Link to="/" className="flex items-center gap-2.5 group">
+          <span className="text-base sm:text-lg font-extrabold tracking-tight text-white group-hover:text-[#00F2DE] transition-colors">
+            Ingoude Company
+          </span>
+          <div className="w-8 h-8 rounded-lg bg-white/15 backdrop-blur-xs border border-white/30 flex items-center justify-center text-white">
+            {/* Minimal Growth Chart Icon matching the reference */}
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M3 3v18h18" />
+              <path d="M7 16l4-4 4 4 5-6" />
+              <path d="M16 10h4v4" />
+            </svg>
+          </div>
+        </Link>
+      </header>
+
+      {/* CENTER / MAIN CONTENT (Outlet renders the floating Cyan Login Card) */}
+      <main className="relative z-20 w-full max-w-7xl mx-auto px-4 sm:px-10 py-6 my-auto flex flex-col items-center lg:items-end justify-center">
         <Outlet />
+      </main>
 
-        {/* Bottom Small Security Note */}
-        <div className="mt-8 text-center text-[11px] text-slate-500 font-medium tracking-wide">
-          Protected by JWT Session Security & Encrypted Enterprise Database
+      {/* BOTTOM CONTACT INFO STRIP (Exact 2nd Image Layout with Circular Badges) */}
+      <footer className="relative z-20 w-full max-w-7xl mx-auto px-6 sm:px-10 pb-6 sm:pb-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 text-white/90 pt-4 border-t border-white/15">
+          {/* Phone */}
+          <div className="flex items-center gap-3">
+            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white flex items-center justify-center text-[#0B2545] shrink-0 shadow-md">
+              <Phone className="w-4 h-4 fill-current" />
+            </div>
+            <div>
+              <div className="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-white/70">Phone</div>
+              <div className="text-xs sm:text-sm font-semibold text-white tracking-wide">+123-456-7890</div>
+            </div>
+          </div>
+
+          {/* E-Mail */}
+          <div className="flex items-center gap-3">
+            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white flex items-center justify-center text-[#0B2545] shrink-0 shadow-md">
+              <Mail className="w-4 h-4" />
+            </div>
+            <div>
+              <div className="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-white/70">E-Mail</div>
+              <div className="text-xs sm:text-sm font-semibold text-white tracking-wide truncate max-w-[160px]">
+                hello@reallygreatsite.com
+              </div>
+            </div>
+          </div>
+
+          {/* Website */}
+          <div className="flex items-center gap-3">
+            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white flex items-center justify-center text-[#0B2545] shrink-0 shadow-md">
+              <Globe className="w-4 h-4" />
+            </div>
+            <div>
+              <div className="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-white/70">Website</div>
+              <div className="text-xs sm:text-sm font-semibold text-white tracking-wide truncate max-w-[160px]">
+                www.reallygreatsite.com
+              </div>
+            </div>
+          </div>
+
+          {/* Address */}
+          <div className="flex items-center gap-3">
+            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white flex items-center justify-center text-[#0B2545] shrink-0 shadow-md">
+              <Home className="w-4 h-4" />
+            </div>
+            <div>
+              <div className="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-white/70">Address</div>
+              <div className="text-xs sm:text-sm font-semibold text-white tracking-wide">
+                123 Anywhere St., Any City
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </footer>
     </div>
   );
 };
