@@ -16,7 +16,11 @@ class Settings(BaseSettings):
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24  # 24 hours
 
-    # PostgreSQL Database Credentials
+    # MongoDB Atlas Configuration
+    MONGODB_URI: str = "mongodb+srv://kodurujagadeeshbabu77_db_user:85ZAFXvfOm7b5CeB@cluster0.wwuikwr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    MONGODB_DB_NAME: str = "venture_ai_db"
+
+    # PostgreSQL Database Credentials (Optional / Fallback)
     POSTGRES_USER: str = "postgres"
     POSTGRES_PASSWORD: str = "postgres"
     POSTGRES_HOST: str = "localhost"

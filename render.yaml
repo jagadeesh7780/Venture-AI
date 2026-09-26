@@ -22,6 +22,10 @@ services:
         value: HS256
       - key: ACCESS_TOKEN_EXPIRE_MINUTES
         value: 1440
+      - key: MONGODB_URI
+        value: mongodb+srv://kodurujagadeeshbabu77_db_user:85ZAFXvfOm7b5CeB@cluster0.wwuikwr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      - key: MONGODB_DB_NAME
+        value: venture_ai_db
       - key: GOOGLE_MAPS_API_KEY
         value: AIzaSyDDpPni56kABZhzzfeskfEJ4Fhse_bZ3gE
       - key: CORS_ORIGINS
