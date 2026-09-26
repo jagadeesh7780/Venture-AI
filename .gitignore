@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Virtual Environments
+venv/
+backend/venv/
+.venv/
+env/
+ENV/
+
+# Python Cache & Build
+__pycache__/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+frontend/dist/
+*.egg-info/
+
+# Environment Variables
+.env
+backend/.env
+frontend/.env
+*.env.local
+
+# Databases & Local Artifacts
+*.sqlite3
+*.db
+backend/aibusiness.db
+backend/chroma_db/
+chroma_db/
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.gemini/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

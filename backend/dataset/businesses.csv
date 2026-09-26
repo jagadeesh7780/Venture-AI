@@ -1,0 +1,501 @@
+business_id,business_name,theme,category,sub_category
+B0001,CRM SaaS,Technology / Startup,SaaS,CRM SaaS
+B0002,HR SaaS,Technology / Startup,SaaS,HR SaaS
+B0003,Accounting SaaS,Technology / Startup,SaaS,Accounting SaaS
+B0004,Project Management SaaS,Technology / Startup,SaaS,Project Management SaaS
+B0005,Retail SaaS,Technology / Startup,SaaS,Retail SaaS
+B0006,AI Startup,Technology / Startup,Artificial Intelligence,AI Startup
+B0007,Computer Vision Company,Technology / Startup,Artificial Intelligence,Computer Vision Company
+B0008,NLP Startup,Technology / Startup,Artificial Intelligence,NLP Startup
+B0009,Generative AI Startup,Technology / Startup,Artificial Intelligence,Generative AI Startup
+B0010,AI Automation Company,Technology / Startup,Artificial Intelligence,AI Automation Company
+B0011,Web Development Agency,Technology / Startup,Web Development,Web Development Agency
+B0012,Full Stack Development Studio,Technology / Startup,Web Development,Full Stack Development Studio
+B0013,E-commerce Development Agency,Technology / Startup,Web Development,E-commerce Development Agency
+B0014,Mobile App Studio,Technology / Startup,Web Development,Mobile App Studio
+B0015,UI/UX Development Studio,Technology / Startup,Web Development,UI/UX Development Studio
+B0016,Cloud Consulting Company,Technology / Startup,Cloud,Cloud Consulting Company
+B0017,Cloud Migration Service,Technology / Startup,Cloud,Cloud Migration Service
+B0018,Managed Cloud Provider,Technology / Startup,Cloud,Managed Cloud Provider
+B0019,DevOps Company,Technology / Startup,Cloud,DevOps Company
+B0020,Cloud Security Company,Technology / Startup,Cloud,Cloud Security Company
+B0021,Cybersecurity Consultancy,Technology / Startup,Cybersecurity,Cybersecurity Consultancy
+B0022,Security Operations Center,Technology / Startup,Cybersecurity,Security Operations Center
+B0023,Penetration Testing Firm,Technology / Startup,Cybersecurity,Penetration Testing Firm
+B0024,Identity Security Company,Technology / Startup,Cybersecurity,Identity Security Company
+B0025,Security Training Company,Technology / Startup,Cybersecurity,Security Training Company
+B0026,General Hospital,Healthcare,Hospital,General Hospital
+B0027,Multi-Specialty Hospital,Healthcare,Hospital,Multi-Specialty Hospital
+B0028,Day Care Hospital,Healthcare,Hospital,Day Care Hospital
+B0029,Community Hospital,Healthcare,Hospital,Community Hospital
+B0030,Specialty Hospital,Healthcare,Hospital,Specialty Hospital
+B0031,General Clinic,Healthcare,Clinic,General Clinic
+B0032,Pediatric Clinic,Healthcare,Clinic,Pediatric Clinic
+B0033,Physiotherapy Clinic,Healthcare,Clinic,Physiotherapy Clinic
+B0034,ENT Clinic,Healthcare,Clinic,ENT Clinic
+B0035,Eye Clinic,Healthcare,Clinic,Eye Clinic
+B0036,Retail Pharmacy,Healthcare,Pharmacy,Retail Pharmacy
+B0037,Hospital Pharmacy,Healthcare,Pharmacy,Hospital Pharmacy
+B0038,Online Pharmacy,Healthcare,Pharmacy,Online Pharmacy
+B0039,Specialty Pharmacy,Healthcare,Pharmacy,Specialty Pharmacy
+B0040,Wholesale Pharmacy,Healthcare,Pharmacy,Wholesale Pharmacy
+B0041,Diagnostic Center,Healthcare,Diagnostics,Diagnostic Center
+B0042,Pathology Lab,Healthcare,Diagnostics,Pathology Lab
+B0043,Imaging Center,Healthcare,Diagnostics,Imaging Center
+B0044,Blood Testing Lab,Healthcare,Diagnostics,Blood Testing Lab
+B0045,Molecular Diagnostics Lab,Healthcare,Diagnostics,Molecular Diagnostics Lab
+B0046,Dental Clinic,Healthcare,Dental,Dental Clinic
+B0047,Orthodontic Clinic,Healthcare,Dental,Orthodontic Clinic
+B0048,Dental Implant Center,Healthcare,Dental,Dental Implant Center
+B0049,Pediatric Dental Clinic,Healthcare,Dental,Pediatric Dental Clinic
+B0050,Dental Laboratory,Healthcare,Dental,Dental Laboratory
+B0051,Family Restaurant,Food,Restaurant,Family Restaurant
+B0052,Fine Dining Restaurant,Food,Restaurant,Fine Dining Restaurant
+B0053,Quick Service Restaurant,Food,Restaurant,Quick Service Restaurant
+B0054,Vegetarian Restaurant,Food,Restaurant,Vegetarian Restaurant
+B0055,Specialty Restaurant,Food,Restaurant,Specialty Restaurant
+B0056,Coffee Cafe,Food,Cafe,Coffee Cafe
+B0057,Tea Cafe,Food,Cafe,Tea Cafe
+B0058,Dessert Cafe,Food,Cafe,Dessert Cafe
+B0059,Bakery Cafe,Food,Cafe,Bakery Cafe
+B0060,Juice Cafe,Food,Cafe,Juice Cafe
+B0061,Bread Bakery,Food,Bakery,Bread Bakery
+B0062,Cake Bakery,Food,Bakery,Cake Bakery
+B0063,Pastry Shop,Food,Bakery,Pastry Shop
+B0064,Commercial Bakery,Food,Bakery,Commercial Bakery
+B0065,Artisan Bakery,Food,Bakery,Artisan Bakery
+B0066,Corporate Catering,Food,Catering,Corporate Catering
+B0067,Wedding Catering,Food,Catering,Wedding Catering
+B0068,Event Catering,Food,Catering,Event Catering
+B0069,Institutional Catering,Food,Catering,Institutional Catering
+B0070,Home Catering,Food,Catering,Home Catering
+B0071,Multi-Cuisine Cloud Kitchen,Food,Cloud Kitchen,Multi-Cuisine Cloud Kitchen
+B0072,Healthy Food Cloud Kitchen,Food,Cloud Kitchen,Healthy Food Cloud Kitchen
+B0073,Biryani Cloud Kitchen,Food,Cloud Kitchen,Biryani Cloud Kitchen
+B0074,Dessert Cloud Kitchen,Food,Cloud Kitchen,Dessert Cloud Kitchen
+B0075,Meal Prep Kitchen,Food,Cloud Kitchen,Meal Prep Kitchen
+B0076,Clothing Store,Fashion,Clothing,Clothing Store
+B0077,Apparel Brand,Fashion,Clothing,Apparel Brand
+B0078,Menswear Store,Fashion,Clothing,Menswear Store
+B0079,Womenswear Store,Fashion,Clothing,Womenswear Store
+B0080,Kidswear Store,Fashion,Clothing,Kidswear Store
+B0081,Fashion Boutique,Fashion,Boutique,Fashion Boutique
+B0082,Bridal Boutique,Fashion,Boutique,Bridal Boutique
+B0083,Designer Boutique,Fashion,Boutique,Designer Boutique
+B0084,Ethnic Wear Boutique,Fashion,Boutique,Ethnic Wear Boutique
+B0085,Custom Boutique,Fashion,Boutique,Custom Boutique
+B0086,Footwear Store,Fashion,Footwear,Footwear Store
+B0087,Shoe Brand,Fashion,Footwear,Shoe Brand
+B0088,Sports Footwear Store,Fashion,Footwear,Sports Footwear Store
+B0089,Custom Footwear Studio,Fashion,Footwear,Custom Footwear Studio
+B0090,Leather Footwear Shop,Fashion,Footwear,Leather Footwear Shop
+B0091,Jewelry Store,Fashion,Jewelry,Jewelry Store
+B0092,Gold Jewelry Store,Fashion,Jewelry,Gold Jewelry Store
+B0093,Fashion Jewelry Store,Fashion,Jewelry,Fashion Jewelry Store
+B0094,Custom Jewelry Studio,Fashion,Jewelry,Custom Jewelry Studio
+B0095,Jewelry Workshop,Fashion,Jewelry,Jewelry Workshop
+B0096,Cosmetics Store,Fashion,Cosmetics,Cosmetics Store
+B0097,Makeup Brand,Fashion,Cosmetics,Makeup Brand
+B0098,Skincare Brand,Fashion,Cosmetics,Skincare Brand
+B0099,Beauty Product Store,Fashion,Cosmetics,Beauty Product Store
+B0100,Natural Cosmetics Brand,Fashion,Cosmetics,Natural Cosmetics Brand
+B0101,Property Management Company,Real Estate,Property Management,Property Management Company
+B0102,Apartment Management Service,Real Estate,Property Management,Apartment Management Service
+B0103,Commercial Property Manager,Real Estate,Property Management,Commercial Property Manager
+B0104,Facility Management Company,Real Estate,Property Management,Facility Management Company
+B0105,Rental Management Service,Real Estate,Property Management,Rental Management Service
+B0106,Residential Construction Company,Real Estate,Construction,Residential Construction Company
+B0107,Commercial Construction Company,Real Estate,Construction,Commercial Construction Company
+B0108,Civil Contractor,Real Estate,Construction,Civil Contractor
+B0109,Renovation Contractor,Real Estate,Construction,Renovation Contractor
+B0110,Infrastructure Contractor,Real Estate,Construction,Infrastructure Contractor
+B0111,Residential Brokerage,Real Estate,Brokerage,Residential Brokerage
+B0112,Commercial Brokerage,Real Estate,Brokerage,Commercial Brokerage
+B0113,Land Brokerage,Real Estate,Brokerage,Land Brokerage
+B0114,Property Consultancy,Real Estate,Brokerage,Property Consultancy
+B0115,Luxury Property Brokerage,Real Estate,Brokerage,Luxury Property Brokerage
+B0116,Apartment Rental Service,Real Estate,Rental,Apartment Rental Service
+B0117,House Rental Agency,Real Estate,Rental,House Rental Agency
+B0118,Office Rental Service,Real Estate,Rental,Office Rental Service
+B0119,Equipment Rental Service,Real Estate,Rental,Equipment Rental Service
+B0120,Vacation Property Rental,Real Estate,Rental,Vacation Property Rental
+B0121,Residential Interior Studio,Real Estate,Interior Design,Residential Interior Studio
+B0122,Commercial Interior Studio,Real Estate,Interior Design,Commercial Interior Studio
+B0123,Kitchen Design Studio,Real Estate,Interior Design,Kitchen Design Studio
+B0124,Office Interior Studio,Real Estate,Interior Design,Office Interior Studio
+B0125,Interior Renovation Studio,Real Estate,Interior Design,Interior Renovation Studio
+B0126,Primary School,Education,School,Primary School
+B0127,High School,Education,School,High School
+B0128,International School,Education,School,International School
+B0129,Montessori School,Education,School,Montessori School
+B0130,Vocational School,Education,School,Vocational School
+B0131,Degree College,Education,College,Degree College
+B0132,Engineering College,Education,College,Engineering College
+B0133,Management College,Education,College,Management College
+B0134,Arts College,Education,College,Arts College
+B0135,Community College,Education,College,Community College
+B0136,Competitive Exam Coaching,Education,Coaching,Competitive Exam Coaching
+B0137,Coding Coaching,Education,Coaching,Coding Coaching
+B0138,Language Coaching,Education,Coaching,Language Coaching
+B0139,School Tuition Center,Education,Coaching,School Tuition Center
+B0140,Professional Exam Coaching,Education,Coaching,Professional Exam Coaching
+B0141,Online Learning Platform,Education,EdTech,Online Learning Platform
+B0142,Virtual Classroom Company,Education,EdTech,Virtual Classroom Company
+B0143,Education App,Education,EdTech,Education App
+B0144,Assessment Platform,Education,EdTech,Assessment Platform
+B0145,Tutoring Platform,Education,EdTech,Tutoring Platform
+B0146,Corporate Training Center,Education,Training,Corporate Training Center
+B0147,Technical Training Institute,Education,Training,Technical Training Institute
+B0148,Skill Development Center,Education,Training,Skill Development Center
+B0149,Vocational Training Center,Education,Training,Vocational Training Center
+B0150,Teacher Training Center,Education,Training,Teacher Training Center
+B0151,Taxi Service,Transportation,Taxi,Taxi Service
+B0152,Ride-Hailing Service,Transportation,Taxi,Ride-Hailing Service
+B0153,Corporate Cab Service,Transportation,Taxi,Corporate Cab Service
+B0154,Airport Taxi Service,Transportation,Taxi,Airport Taxi Service
+B0155,Outstation Cab Service,Transportation,Taxi,Outstation Cab Service
+B0156,Freight Logistics Company,Transportation,Logistics,Freight Logistics Company
+B0157,Last-Mile Logistics,Transportation,Logistics,Last-Mile Logistics
+B0158,Cold Chain Logistics,Transportation,Logistics,Cold Chain Logistics
+B0159,Express Logistics,Transportation,Logistics,Express Logistics
+B0160,B2B Logistics,Transportation,Logistics,B2B Logistics
+B0161,Courier Service,Transportation,Courier,Courier Service
+B0162,Document Courier,Transportation,Courier,Document Courier
+B0163,Parcel Delivery Service,Transportation,Courier,Parcel Delivery Service
+B0164,Same-Day Courier,Transportation,Courier,Same-Day Courier
+B0165,E-commerce Courier,Transportation,Courier,E-commerce Courier
+B0166,Self-Drive Car Rental,Transportation,Car Rental,Self-Drive Car Rental
+B0167,Chauffeur Car Rental,Transportation,Car Rental,Chauffeur Car Rental
+B0168,Corporate Car Rental,Transportation,Car Rental,Corporate Car Rental
+B0169,Luxury Car Rental,Transportation,Car Rental,Luxury Car Rental
+B0170,Tourist Car Rental,Transportation,Car Rental,Tourist Car Rental
+B0171,EV Fleet Service,Transportation,EV,EV Fleet Service
+B0172,EV Mobility Company,Transportation,EV,EV Mobility Company
+B0173,Electric Taxi Service,Transportation,EV,Electric Taxi Service
+B0174,EV Rental Service,Transportation,EV,EV Rental Service
+B0175,EV Delivery Fleet,Transportation,EV,EV Delivery Fleet
+B0176,Digital Payments Startup,Finance,FinTech,Digital Payments Startup
+B0177,Personal Finance App,Finance,FinTech,Personal Finance App
+B0178,Lending Platform,Finance,FinTech,Lending Platform
+B0179,WealthTech Startup,Finance,FinTech,WealthTech Startup
+B0180,InsurTech Startup,Finance,FinTech,InsurTech Startup
+B0181,Accounting Firm,Finance,Accounting,Accounting Firm
+B0182,Bookkeeping Service,Finance,Accounting,Bookkeeping Service
+B0183,Tax Consultancy,Finance,Accounting,Tax Consultancy
+B0184,Payroll Service,Finance,Accounting,Payroll Service
+B0185,Audit Consultancy,Finance,Accounting,Audit Consultancy
+B0186,Insurance Agency,Finance,Insurance,Insurance Agency
+B0187,Insurance Brokerage,Finance,Insurance,Insurance Brokerage
+B0188,Health Insurance Consultancy,Finance,Insurance,Health Insurance Consultancy
+B0189,Life Insurance Agency,Finance,Insurance,Life Insurance Agency
+B0190,General Insurance Agency,Finance,Insurance,General Insurance Agency
+B0191,Loan Consultancy,Finance,Loans,Loan Consultancy
+B0192,Microfinance Service,Finance,Loans,Microfinance Service
+B0193,Business Loan Agency,Finance,Loans,Business Loan Agency
+B0194,Mortgage Consultancy,Finance,Loans,Mortgage Consultancy
+B0195,Education Loan Service,Finance,Loans,Education Loan Service
+B0196,Investment Advisory,Finance,Investment,Investment Advisory
+B0197,Mutual Fund Advisory,Finance,Investment,Mutual Fund Advisory
+B0198,Portfolio Management Service,Finance,Investment,Portfolio Management Service
+B0199,Financial Planning Firm,Finance,Investment,Financial Planning Firm
+B0200,Investment Research Firm,Finance,Investment,Investment Research Firm
+B0201,Grocery Store,Retail,Grocery,Grocery Store
+B0202,Supermarket,Retail,Grocery,Supermarket
+B0203,Organic Grocery Store,Retail,Grocery,Organic Grocery Store
+B0204,Convenience Store,Retail,Grocery,Convenience Store
+B0205,Wholesale Grocery,Retail,Grocery,Wholesale Grocery
+B0206,Electronics Store,Retail,Electronics,Electronics Store
+B0207,Computer Store,Retail,Electronics,Computer Store
+B0208,Mobile Store,Retail,Electronics,Mobile Store
+B0209,Home Appliance Store,Retail,Electronics,Home Appliance Store
+B0210,Consumer Electronics Brand,Retail,Electronics,Consumer Electronics Brand
+B0211,Furniture Store,Retail,Furniture,Furniture Store
+B0212,Office Furniture Store,Retail,Furniture,Office Furniture Store
+B0213,Custom Furniture Studio,Retail,Furniture,Custom Furniture Studio
+B0214,Home Furnishing Store,Retail,Furniture,Home Furnishing Store
+B0215,Furniture Showroom,Retail,Furniture,Furniture Showroom
+B0216,Neighborhood Supermarket,Retail,Supermarket,Neighborhood Supermarket
+B0217,Hypermarket,Retail,Supermarket,Hypermarket
+B0218,Mini Supermarket,Retail,Supermarket,Mini Supermarket
+B0219,Specialty Supermarket,Retail,Supermarket,Specialty Supermarket
+B0220,Wholesale Supermarket,Retail,Supermarket,Wholesale Supermarket
+B0221,General E-commerce Store,Retail,E-commerce,General E-commerce Store
+B0222,Fashion E-commerce Store,Retail,E-commerce,Fashion E-commerce Store
+B0223,Grocery E-commerce Store,Retail,E-commerce,Grocery E-commerce Store
+B0224,Electronics E-commerce Store,Retail,E-commerce,Electronics E-commerce Store
+B0225,Niche E-commerce Store,Retail,E-commerce,Niche E-commerce Store
+B0226,Industrial Machinery Manufacturer,Manufacturing,Machinery,Industrial Machinery Manufacturer
+B0227,Machine Tools Manufacturer,Manufacturing,Machinery,Machine Tools Manufacturer
+B0228,CNC Equipment Manufacturer,Manufacturing,Machinery,CNC Equipment Manufacturer
+B0229,Industrial Equipment Manufacturer,Manufacturing,Machinery,Industrial Equipment Manufacturer
+B0230,Process Machinery Manufacturer,Manufacturing,Machinery,Process Machinery Manufacturer
+B0231,Electronics Manufacturer,Manufacturing,Electronics,Electronics Manufacturer
+B0232,PCB Assembly Unit,Manufacturing,Electronics,PCB Assembly Unit
+B0233,Consumer Electronics Manufacturer,Manufacturing,Electronics,Consumer Electronics Manufacturer
+B0234,Industrial Electronics Manufacturer,Manufacturing,Electronics,Industrial Electronics Manufacturer
+B0235,Embedded Systems Manufacturer,Manufacturing,Electronics,Embedded Systems Manufacturer
+B0236,Textile Manufacturing Unit,Manufacturing,Textiles,Textile Manufacturing Unit
+B0237,Garment Factory,Manufacturing,Textiles,Garment Factory
+B0238,Knitting Unit,Manufacturing,Textiles,Knitting Unit
+B0239,Dyeing Unit,Manufacturing,Textiles,Dyeing Unit
+B0240,Home Textile Factory,Manufacturing,Textiles,Home Textile Factory
+B0241,Packaging Manufacturer,Manufacturing,Packaging,Packaging Manufacturer
+B0242,Carton Box Manufacturer,Manufacturing,Packaging,Carton Box Manufacturer
+B0243,Flexible Packaging Unit,Manufacturing,Packaging,Flexible Packaging Unit
+B0244,Bottle Packaging Manufacturer,Manufacturing,Packaging,Bottle Packaging Manufacturer
+B0245,Label Printing Unit,Manufacturing,Packaging,Label Printing Unit
+B0246,Auto Parts Manufacturer,Manufacturing,Automotive,Auto Parts Manufacturer
+B0247,Automotive Component Unit,Manufacturing,Automotive,Automotive Component Unit
+B0248,EV Component Manufacturer,Manufacturing,Automotive,EV Component Manufacturer
+B0249,Auto Accessories Manufacturer,Manufacturing,Automotive,Auto Accessories Manufacturer
+B0250,Precision Auto Parts Unit,Manufacturing,Automotive,Precision Auto Parts Unit
+B0251,Vegetable Farm,Agriculture,Farming,Vegetable Farm
+B0252,Fruit Farm,Agriculture,Farming,Fruit Farm
+B0253,Organic Farm,Agriculture,Farming,Organic Farm
+B0254,Greenhouse Farm,Agriculture,Farming,Greenhouse Farm
+B0255,Hydroponic Farm,Agriculture,Farming,Hydroponic Farm
+B0256,Precision Agriculture Startup,Agriculture,AgriTech,Precision Agriculture Startup
+B0257,Farm Management Platform,Agriculture,AgriTech,Farm Management Platform
+B0258,Agricultural Drone Service,Agriculture,AgriTech,Agricultural Drone Service
+B0259,Smart Irrigation Company,Agriculture,AgriTech,Smart Irrigation Company
+B0260,Farm IoT Company,Agriculture,AgriTech,Farm IoT Company
+B0261,Seed Production Unit,Agriculture,Seeds,Seed Production Unit
+B0262,Seed Processing Unit,Agriculture,Seeds,Seed Processing Unit
+B0263,Seed Distribution Business,Agriculture,Seeds,Seed Distribution Business
+B0264,Nursery Business,Agriculture,Seeds,Nursery Business
+B0265,Hybrid Seed Company,Agriculture,Seeds,Hybrid Seed Company
+B0266,Fertilizer Distribution Business,Agriculture,Fertilizer,Fertilizer Distribution Business
+B0267,Organic Fertilizer Unit,Agriculture,Fertilizer,Organic Fertilizer Unit
+B0268,Compost Production Unit,Agriculture,Fertilizer,Compost Production Unit
+B0269,Biofertilizer Unit,Agriculture,Fertilizer,Biofertilizer Unit
+B0270,Soil Amendment Business,Agriculture,Fertilizer,Soil Amendment Business
+B0271,Dairy Farm,Agriculture,Dairy & Poultry,Dairy Farm
+B0272,Milk Processing Unit,Agriculture,Dairy & Poultry,Milk Processing Unit
+B0273,Poultry Farm,Agriculture,Dairy & Poultry,Poultry Farm
+B0274,Egg Production Unit,Agriculture,Dairy & Poultry,Egg Production Unit
+B0275,Animal Feed Business,Agriculture,Dairy & Poultry,Animal Feed Business
+B0276,Unisex Salon,Beauty,Salon,Unisex Salon
+B0277,Ladies Salon,Beauty,Salon,Ladies Salon
+B0278,Gents Salon,Beauty,Salon,Gents Salon
+B0279,Hair Studio,Beauty,Salon,Hair Studio
+B0280,Premium Salon,Beauty,Salon,Premium Salon
+B0281,Day Spa,Beauty,Spa,Day Spa
+B0282,Wellness Spa,Beauty,Spa,Wellness Spa
+B0283,Ayurvedic Spa,Beauty,Spa,Ayurvedic Spa
+B0284,Massage Center,Beauty,Spa,Massage Center
+B0285,Luxury Spa,Beauty,Spa,Luxury Spa
+B0286,Makeup Studio,Beauty,Makeup,Makeup Studio
+B0287,Bridal Makeup Studio,Beauty,Makeup,Bridal Makeup Studio
+B0288,Makeup Academy,Beauty,Makeup,Makeup Academy
+B0289,Freelance Makeup Service,Beauty,Makeup,Freelance Makeup Service
+B0290,Beauty Training Studio,Beauty,Makeup,Beauty Training Studio
+B0291,Skincare Clinic,Beauty,Skincare,Skincare Clinic
+B0292,Facial Studio,Beauty,Skincare,Facial Studio
+B0293,Skin Treatment Center,Beauty,Skincare,Skin Treatment Center
+B0294,Skincare Product Brand,Beauty,Skincare,Skincare Product Brand
+B0295,Aesthetic Beauty Studio,Beauty,Skincare,Aesthetic Beauty Studio
+B0296,Hair Treatment Center,Beauty,Haircare,Hair Treatment Center
+B0297,Hair Transplant Clinic,Beauty,Haircare,Hair Transplant Clinic
+B0298,Haircare Product Brand,Beauty,Haircare,Haircare Product Brand
+B0299,Scalp Care Studio,Beauty,Haircare,Scalp Care Studio
+B0300,Hair Extension Studio,Beauty,Haircare,Hair Extension Studio
+B0301,Commercial Gym,Fitness,Gym,Commercial Gym
+B0302,Boutique Gym,Fitness,Gym,Boutique Gym
+B0303,Ladies Gym,Fitness,Gym,Ladies Gym
+B0304,CrossFit Gym,Fitness,Gym,CrossFit Gym
+B0305,Strength Training Center,Fitness,Gym,Strength Training Center
+B0306,Yoga Studio,Fitness,Yoga,Yoga Studio
+B0307,Meditation Center,Fitness,Yoga,Meditation Center
+B0308,Online Yoga Studio,Fitness,Yoga,Online Yoga Studio
+B0309,Prenatal Yoga Center,Fitness,Yoga,Prenatal Yoga Center
+B0310,Yoga Retreat Center,Fitness,Yoga,Yoga Retreat Center
+B0311,Cricket Academy,Fitness,Sports Academy,Cricket Academy
+B0312,Football Academy,Fitness,Sports Academy,Football Academy
+B0313,Badminton Academy,Fitness,Sports Academy,Badminton Academy
+B0314,Tennis Academy,Fitness,Sports Academy,Tennis Academy
+B0315,Swimming Academy,Fitness,Sports Academy,Swimming Academy
+B0316,Personal Training Studio,Fitness,Fitness Center,Personal Training Studio
+B0317,Functional Fitness Center,Fitness,Fitness Center,Functional Fitness Center
+B0318,Fitness Club,Fitness,Fitness Center,Fitness Club
+B0319,Senior Fitness Center,Fitness,Fitness Center,Senior Fitness Center
+B0320,Rehabilitation Fitness Center,Fitness,Fitness Center,Rehabilitation Fitness Center
+B0321,Sports Equipment Store,Fitness,Sports Equipment,Sports Equipment Store
+B0322,Fitness Equipment Store,Fitness,Sports Equipment,Fitness Equipment Store
+B0323,Sports Gear Brand,Fitness,Sports Equipment,Sports Gear Brand
+B0324,Gym Equipment Dealer,Fitness,Sports Equipment,Gym Equipment Dealer
+B0325,Athletic Equipment Rental,Fitness,Sports Equipment,Athletic Equipment Rental
+B0326,Budget Hotel,Travel,Hotel,Budget Hotel
+B0327,Business Hotel,Travel,Hotel,Business Hotel
+B0328,Boutique Hotel,Travel,Hotel,Boutique Hotel
+B0329,Resort,Travel,Hotel,Resort
+B0330,Luxury Hotel,Travel,Hotel,Luxury Hotel
+B0331,Tour Operator,Travel,Tourism,Tour Operator
+B0332,Local Tourism Company,Travel,Tourism,Local Tourism Company
+B0333,Adventure Tourism Company,Travel,Tourism,Adventure Tourism Company
+B0334,Eco Tourism Company,Travel,Tourism,Eco Tourism Company
+B0335,Pilgrimage Tour Company,Travel,Tourism,Pilgrimage Tour Company
+B0336,Corporate Travel Agency,Travel,Travel Agency,Corporate Travel Agency
+B0337,Leisure Travel Agency,Travel,Travel Agency,Leisure Travel Agency
+B0338,Online Travel Agency,Travel,Travel Agency,Online Travel Agency
+B0339,Visa Consultancy,Travel,Travel Agency,Visa Consultancy
+B0340,Ticketing Agency,Travel,Travel Agency,Ticketing Agency
+B0341,Family Homestay,Travel,Homestay,Family Homestay
+B0342,Farm Homestay,Travel,Homestay,Farm Homestay
+B0343,Heritage Homestay,Travel,Homestay,Heritage Homestay
+B0344,Luxury Homestay,Travel,Homestay,Luxury Homestay
+B0345,Backpacker Homestay,Travel,Homestay,Backpacker Homestay
+B0346,Destination Management Company,Travel,Events & Tours,Destination Management Company
+B0347,Travel Experience Company,Travel,Events & Tours,Travel Experience Company
+B0348,Adventure Tour Organizer,Travel,Events & Tours,Adventure Tour Organizer
+B0349,Cruise Tour Agency,Travel,Events & Tours,Cruise Tour Agency
+B0350,Group Tour Organizer,Travel,Events & Tours,Group Tour Organizer
+B0351,Car Service Center,Automotive,Car Service,Car Service Center
+B0352,Multi-Brand Garage,Automotive,Car Service,Multi-Brand Garage
+B0353,Premium Car Service,Automotive,Car Service,Premium Car Service
+B0354,Engine Repair Center,Automotive,Car Service,Engine Repair Center
+B0355,Auto Electrical Workshop,Automotive,Car Service,Auto Electrical Workshop
+B0356,General Garage,Automotive,Garage,General Garage
+B0357,Two-Wheeler Garage,Automotive,Garage,Two-Wheeler Garage
+B0358,Heavy Vehicle Garage,Automotive,Garage,Heavy Vehicle Garage
+B0359,EV Garage,Automotive,Garage,EV Garage
+B0360,Performance Garage,Automotive,Garage,Performance Garage
+B0361,Auto Parts Store,Automotive,Parts,Auto Parts Store
+B0362,Spare Parts Distributor,Automotive,Parts,Spare Parts Distributor
+B0363,EV Parts Store,Automotive,Parts,EV Parts Store
+B0364,Tyre Store,Automotive,Parts,Tyre Store
+B0365,Battery Store,Automotive,Parts,Battery Store
+B0366,Automatic Car Wash,Automotive,Car Wash,Automatic Car Wash
+B0367,Manual Car Wash,Automotive,Car Wash,Manual Car Wash
+B0368,Detailing Center,Automotive,Car Wash,Detailing Center
+B0369,Mobile Car Wash,Automotive,Car Wash,Mobile Car Wash
+B0370,Eco Car Wash,Automotive,Car Wash,Eco Car Wash
+B0371,EV Charging Station,Automotive,EV Charging,EV Charging Station
+B0372,Fast Charging Hub,Automotive,EV Charging,Fast Charging Hub
+B0373,Fleet Charging Center,Automotive,EV Charging,Fleet Charging Center
+B0374,Apartment EV Charging Service,Automotive,EV Charging,Apartment EV Charging Service
+B0375,Highway EV Charging Station,Automotive,EV Charging,Highway EV Charging Station
+B0376,Pet Supplies Store,Pet,Pet Store,Pet Supplies Store
+B0377,Pet Food Store,Pet,Pet Store,Pet Food Store
+B0378,Pet Accessories Store,Pet,Pet Store,Pet Accessories Store
+B0379,Aquarium Store,Pet,Pet Store,Aquarium Store
+B0380,Pet Product E-commerce,Pet,Pet Store,Pet Product E-commerce
+B0381,Veterinary Clinic,Pet,Veterinary,Veterinary Clinic
+B0382,Animal Hospital,Pet,Veterinary,Animal Hospital
+B0383,Pet Vaccination Center,Pet,Veterinary,Pet Vaccination Center
+B0384,Veterinary Diagnostics Center,Pet,Veterinary,Veterinary Diagnostics Center
+B0385,Mobile Veterinary Service,Pet,Veterinary,Mobile Veterinary Service
+B0386,Pet Grooming Salon,Pet,Grooming,Pet Grooming Salon
+B0387,Mobile Pet Grooming,Pet,Grooming,Mobile Pet Grooming
+B0388,Dog Grooming Studio,Pet,Grooming,Dog Grooming Studio
+B0389,Cat Grooming Studio,Pet,Grooming,Cat Grooming Studio
+B0390,Pet Spa,Pet,Grooming,Pet Spa
+B0391,Pet Food Brand,Pet,Pet Food,Pet Food Brand
+B0392,Pet Treats Manufacturer,Pet,Pet Food,Pet Treats Manufacturer
+B0393,Raw Pet Food Business,Pet,Pet Food,Raw Pet Food Business
+B0394,Pet Nutrition Service,Pet,Pet Food,Pet Nutrition Service
+B0395,Pet Food Distributor,Pet,Pet Food,Pet Food Distributor
+B0396,Pet Boarding Center,Pet,Pet Boarding,Pet Boarding Center
+B0397,Dog Daycare,Pet,Pet Boarding,Dog Daycare
+B0398,Cat Boarding Center,Pet,Pet Boarding,Cat Boarding Center
+B0399,Pet Resort,Pet,Pet Boarding,Pet Resort
+B0400,Pet Sitting Service,Pet,Pet Boarding,Pet Sitting Service
+B0401,Business Consulting Firm,Professional Services,Consulting,Business Consulting Firm
+B0402,IT Consulting Firm,Professional Services,Consulting,IT Consulting Firm
+B0403,Management Consulting Firm,Professional Services,Consulting,Management Consulting Firm
+B0404,Strategy Consulting Firm,Professional Services,Consulting,Strategy Consulting Firm
+B0405,Operations Consulting Firm,Professional Services,Consulting,Operations Consulting Firm
+B0406,Law Firm,Professional Services,Legal,Law Firm
+B0407,Legal Consultancy,Professional Services,Legal,Legal Consultancy
+B0408,Corporate Legal Service,Professional Services,Legal,Corporate Legal Service
+B0409,Property Legal Consultancy,Professional Services,Legal,Property Legal Consultancy
+B0410,Legal Documentation Service,Professional Services,Legal,Legal Documentation Service
+B0411,HR Consultancy,Professional Services,HR,HR Consultancy
+B0412,Recruitment Agency,Professional Services,HR,Recruitment Agency
+B0413,Payroll Consultancy,Professional Services,HR,Payroll Consultancy
+B0414,Talent Management Firm,Professional Services,HR,Talent Management Firm
+B0415,HR Technology Service,Professional Services,HR,HR Technology Service
+B0416,Digital Marketing Agency,Professional Services,Marketing,Digital Marketing Agency
+B0417,Branding Agency,Professional Services,Marketing,Branding Agency
+B0418,Social Media Agency,Professional Services,Marketing,Social Media Agency
+B0419,SEO Agency,Professional Services,Marketing,SEO Agency
+B0420,Content Marketing Agency,Professional Services,Marketing,Content Marketing Agency
+B0421,Accounting Consultancy,Professional Services,Accounting,Accounting Consultancy
+B0422,Tax Filing Service,Professional Services,Accounting,Tax Filing Service
+B0423,Bookkeeping Firm,Professional Services,Accounting,Bookkeeping Firm
+B0424,Financial Reporting Service,Professional Services,Accounting,Financial Reporting Service
+B0425,CFO Advisory Service,Professional Services,Accounting,CFO Advisory Service
+B0426,Gaming Cafe,Entertainment,Gaming,Gaming Cafe
+B0427,Esports Center,Entertainment,Gaming,Esports Center
+B0428,Game Development Studio,Entertainment,Gaming,Game Development Studio
+B0429,VR Gaming Center,Entertainment,Gaming,VR Gaming Center
+B0430,Console Gaming Lounge,Entertainment,Gaming,Console Gaming Lounge
+B0431,Event Management Company,Entertainment,Events,Event Management Company
+B0432,Wedding Event Company,Entertainment,Events,Wedding Event Company
+B0433,Corporate Events Company,Entertainment,Events,Corporate Events Company
+B0434,Exhibition Organizer,Entertainment,Events,Exhibition Organizer
+B0435,Party Planning Company,Entertainment,Events,Party Planning Company
+B0436,Media Production House,Entertainment,Media,Media Production House
+B0437,Digital Media Company,Entertainment,Media,Digital Media Company
+B0438,Podcast Studio,Entertainment,Media,Podcast Studio
+B0439,News Media Startup,Entertainment,Media,News Media Startup
+B0440,Content Studio,Entertainment,Media,Content Studio
+B0441,Music Production Studio,Entertainment,Music,Music Production Studio
+B0442,Recording Studio,Entertainment,Music,Recording Studio
+B0443,Music Academy,Entertainment,Music,Music Academy
+B0444,Live Music Company,Entertainment,Music,Live Music Company
+B0445,Audio Post-Production Studio,Entertainment,Music,Audio Post-Production Studio
+B0446,Film Production Company,Entertainment,Production,Film Production Company
+B0447,Video Production Studio,Entertainment,Production,Video Production Studio
+B0448,Animation Studio,Entertainment,Production,Animation Studio
+B0449,Photography Studio,Entertainment,Production,Photography Studio
+B0450,Commercial Production House,Entertainment,Production,Commercial Production House
+B0451,Solar Installation Company,Energy,Solar,Solar Installation Company
+B0452,Solar EPC Company,Energy,Solar,Solar EPC Company
+B0453,Solar Retailer,Energy,Solar,Solar Retailer
+B0454,Solar Maintenance Service,Energy,Solar,Solar Maintenance Service
+B0455,Solar Farm,Energy,Solar,Solar Farm
+B0456,EV Charging Business,Energy,EV,EV Charging Business
+B0457,EV Fleet Charging,Energy,EV,EV Fleet Charging
+B0458,EV Battery Service,Energy,EV,EV Battery Service
+B0459,EV Infrastructure Company,Energy,EV,EV Infrastructure Company
+B0460,EV Consultancy,Energy,EV,EV Consultancy
+B0461,Renewable Energy Consultancy,Energy,Renewable,Renewable Energy Consultancy
+B0462,Wind Energy Service,Energy,Renewable,Wind Energy Service
+B0463,Biomass Energy Unit,Energy,Renewable,Biomass Energy Unit
+B0464,Microgrid Company,Energy,Renewable,Microgrid Company
+B0465,Clean Energy Startup,Energy,Renewable,Clean Energy Startup
+B0466,Battery Manufacturing Unit,Energy,Battery,Battery Manufacturing Unit
+B0467,Battery Recycling Unit,Energy,Battery,Battery Recycling Unit
+B0468,Battery Service Center,Energy,Battery,Battery Service Center
+B0469,Energy Storage Company,Energy,Battery,Energy Storage Company
+B0470,Battery Distribution Business,Energy,Battery,Battery Distribution Business
+B0471,Energy Audit Firm,Energy,Energy Services,Energy Audit Firm
+B0472,Energy Efficiency Consultancy,Energy,Energy Services,Energy Efficiency Consultancy
+B0473,Power Quality Service,Energy,Energy Services,Power Quality Service
+B0474,Energy Monitoring Company,Energy,Energy Services,Energy Monitoring Company
+B0475,Electrical Energy Consultancy,Energy,Energy Services,Electrical Energy Consultancy
+B0476,General Warehouse,Logistics,Warehouse,General Warehouse
+B0477,Cold Storage Warehouse,Logistics,Warehouse,Cold Storage Warehouse
+B0478,E-commerce Fulfillment Center,Logistics,Warehouse,E-commerce Fulfillment Center
+B0479,Distribution Center,Logistics,Warehouse,Distribution Center
+B0480,Bonded Warehouse,Logistics,Warehouse,Bonded Warehouse
+B0481,Food Delivery Service,Logistics,Delivery,Food Delivery Service
+B0482,Local Delivery Service,Logistics,Delivery,Local Delivery Service
+B0483,Medicine Delivery Service,Logistics,Delivery,Medicine Delivery Service
+B0484,Grocery Delivery Service,Logistics,Delivery,Grocery Delivery Service
+B0485,B2B Delivery Service,Logistics,Delivery,B2B Delivery Service
+B0486,Supply Chain Consultancy,Logistics,Supply Chain,Supply Chain Consultancy
+B0487,Inventory Management Service,Logistics,Supply Chain,Inventory Management Service
+B0488,Procurement Service,Logistics,Supply Chain,Procurement Service
+B0489,Supply Chain Technology Company,Logistics,Supply Chain,Supply Chain Technology Company
+B0490,Freight Forwarding Service,Logistics,Supply Chain,Freight Forwarding Service
+B0491,Truck Transport Company,Logistics,Transportation,Truck Transport Company
+B0492,Mini Truck Service,Logistics,Transportation,Mini Truck Service
+B0493,Container Transport Company,Logistics,Transportation,Container Transport Company
+B0494,Intercity Transport Service,Logistics,Transportation,Intercity Transport Service
+B0495,Fleet Transport Company,Logistics,Transportation,Fleet Transport Company
+B0496,Last-Mile Delivery Company,Logistics,Last-Mile,Last-Mile Delivery Company
+B0497,Hyperlocal Delivery Service,Logistics,Last-Mile,Hyperlocal Delivery Service
+B0498,Parcel Pickup Service,Logistics,Last-Mile,Parcel Pickup Service
+B0499,Route Optimization Service,Logistics,Last-Mile,Route Optimization Service
+B0500,Delivery Fleet Service,Logistics,Last-Mile,Delivery Fleet Service

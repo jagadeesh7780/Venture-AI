@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: venture-ai-backend
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: ENVIRONMENT
+        value: production
+      - key: PROJECT_NAME
+        value: VENTURE AI
+      - key: API_V1_STR
+        value: /api
+      - key: JWT_SECRET
+        generateValue: true
+      - key: ALGORITHM
+        value: HS256
+      - key: ACCESS_TOKEN_EXPIRE_MINUTES
+        value: 1440
+      - key: GOOGLE_MAPS_API_KEY
+        value: AIzaSyDDpPni56kABZhzzfeskfEJ4Fhse_bZ3gE
+      - key: CORS_ORIGINS
+        value: "*"

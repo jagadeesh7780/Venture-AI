@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#F8FAFC] text-slate-900 min-h-screen antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  ::selection {
+    background: #F97316;
+    color: #FFFFFF;
+  }
+
+  /* Custom Clean Orange/Slate Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #F1F5F9;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #CBD5E1;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #F97316;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(226, 232, 240, 0.9);
+  }
+  
+  .glass-card-hover {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .glass-card-hover:hover {
+    background: #FFFFFF;
+    border-color: rgba(249, 115, 22, 0.6);
+    box-shadow: 0 10px 25px -5px rgba(249, 115, 22, 0.15);
+    transform: translateY(-2px);
+  }
+
+  .glow-border-orange {
+    box-shadow: 0 0 20px rgba(249, 115, 22, 0.25), inset 0 0 10px rgba(249, 115, 22, 0.05);
+  }
+
+  .glow-border-white {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+  }
+}
