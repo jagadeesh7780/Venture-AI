@@ -62,15 +62,16 @@ class Settings(BaseSettings):
     def get_database_url(self) -> str:
         """
         Returns the resolved database connection URL.
-        Auto-converts legacy 'postgres://' (Render/Heroku) to 'postgresql://' for SQLAlchemy 2.0.
+        If DATABASE_URL is provided, converts 'postgres://' to 'postgresql://'.
+        Otherwise, falls back to a clean local SQLite database while MongoDB Atlas handles cloud persistence.
         """
         url = self.DATABASE_URL
-        if not url:
-            url = f"postgresql://{self.POSTGRES_USER}:{self.POSTGRES_PASSWORD}@{self.POSTGRES_HOST}:{self.POSTGRES_PORT}/{self.POSTGRES_DB}"
-        
-        if url.startswith("postgres://"):
-            url = url.replace("postgres://", "postgresql://", 1)
-        return url
+        if url:
+            if url.startswith("postgres://"):
+                url = url.replace("postgres://", "postgresql://", 1)
+            return url
+        return "sqlite:///./venture_ai_local.db"
+
 
     model_config = SettingsConfigDict(
         env_file=".env",

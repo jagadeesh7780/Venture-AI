@@ -14,12 +14,15 @@ from app.db.mongo import (
 
 def get_user_by_email(db: Session, email: str) -> Optional[User]:
     """
-    Look up a user by email address from PostgreSQL or MongoDB Atlas.
+    Look up a user by email address from PostgreSQL/SQLite or MongoDB Atlas.
     """
     clean_email = email.strip().lower()
-    user = db.query(User).filter(User.email.ilike(clean_email)).first()
-    if user:
-        return user
+    try:
+        user = db.query(User).filter(User.email.ilike(clean_email)).first()
+        if user:
+            return user
+    except Exception:
+        db.rollback()
 
     # Fallback to MongoDB Atlas
     mongo_user = mongo_get_user_by_email(clean_email)
@@ -48,11 +51,14 @@ def get_user_by_email(db: Session, email: str) -> Optional[User]:
 
 def get_user_by_id(db: Session, user_id: int) -> Optional[User]:
     """
-    Look up a user by primary key ID from PostgreSQL or MongoDB Atlas.
+    Look up a user by primary key ID from PostgreSQL/SQLite or MongoDB Atlas.
     """
-    user = db.query(User).filter(User.id == user_id).first()
-    if user:
-        return user
+    try:
+        user = db.query(User).filter(User.id == user_id).first()
+        if user:
+            return user
+    except Exception:
+        db.rollback()
 
     # Fallback to MongoDB Atlas
     mongo_user = mongo_get_user_by_id(user_id)
@@ -64,6 +70,7 @@ def get_user_by_id(db: Session, user_id: int) -> Optional[User]:
             password_hash=mongo_user.get("password_hash", ""),
         )
     return None
+
 
 
 def register_user(db: Session, user_in: UserCreate) -> User:
