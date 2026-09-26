@@ -13,26 +13,28 @@ async def lifespan(app: FastAPI):
     """
     Application Lifespan:
     Executes startup and shutdown tasks.
-    On startup:
-    1. Verifies/creates PostgreSQL database tables (users, businesses).
-    2. Verifies connection to MongoDB Atlas for cloud user & business planning persistence.
+    1. MongoDB Atlas cloud cluster verification.
+    2. Optional PostgreSQL schema verification (if configured).
     """
-    # 1. PostgreSQL Schema Verification
-    try:
-        Base.metadata.create_all(bind=engine)
-        print("[PostgreSQL] Tables (users, businesses) verified/created successfully.")
-    except Exception as e:
-        print(f"[PostgreSQL Warning] Could not connect or create tables on startup: {e}")
-
-    # 2. MongoDB Atlas Connection Verification
+    # 1. MongoDB Atlas Connection Verification (Primary)
     try:
         mongo_db = get_mongo_db()
         if mongo_db is not None:
-            print("[MongoDB Atlas] Cloud cluster connection active. User credentials & business plans synced.")
+            print("[MongoDB Atlas] Connected to Cluster0. User credentials & business plans synced.")
         else:
-            print("[MongoDB Atlas] Running in resilient mode.")
+            print("[MongoDB Atlas] Running in resilient fallback mode.")
     except Exception as e:
         print(f"[MongoDB Atlas Warning]: {e}")
+
+    # 2. Optional PostgreSQL Schema Verification (only if Postgres is explicitly configured)
+    if settings.DATABASE_URL or settings.POSTGRES_HOST not in ("localhost", "127.0.0.1"):
+        try:
+            Base.metadata.create_all(bind=engine)
+            print("[PostgreSQL] Tables verified/created successfully.")
+        except Exception as e:
+            print(f"[PostgreSQL Notice] PostgreSQL optional storage not reachable: {e}")
+    else:
+        print("[Database] MongoDB Atlas active as primary cloud database.")
 
     yield
 
@@ -59,10 +61,10 @@ app.add_middleware(
 app.include_router(api_router, prefix=settings.API_V1_STR)
 
 
-@app.get("/", tags=["Health Check"])
+@app.api_route("/", methods=["GET", "HEAD"], tags=["Health Check"])
 def root():
     """
-    Root health check endpoint.
+    Root health check endpoint (supports GET and HEAD for Render health checks).
     """
     return {
         "status": "healthy",
@@ -70,3 +72,4 @@ def root():
         "database": "MongoDB Atlas Connected",
         "docs_url": "/docs",
     }
+
